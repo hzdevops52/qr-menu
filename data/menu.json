@@ -1,0 +1,121 @@
+{
+  "restaurant": {
+    "name": "The Grand Table",
+    "tagline": "A PREMIUM DINING EXPERIENCE",
+    "heroTitle": "Good Food. Great Moments.",
+    "description": "Discover our selection of freshly prepared favourites.",
+    "coverImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800&q=85",
+    "address": "Your City, Pakistan",
+    "hours": "Open daily \u00b7 12:00 PM \u2013 11:00 PM",
+    "currency": "PKR"
+  },
+  "categories": [
+    "Starters",
+    "Burgers",
+    "Pizza",
+    "Main Course",
+    "Desserts",
+    "Drinks"
+  ],
+  "items": [
+    {
+      "id": "starter-01",
+      "name": "Loaded Fries",
+      "category": "Starters",
+      "description": "Golden crispy fries topped with cheese sauce and signature seasoning.",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "starter-02",
+      "name": "Chicken Wings",
+      "category": "Starters",
+      "description": "Juicy wings coated in our special house sauce.",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "burger-01",
+      "name": "Classic Zinger Burger",
+      "category": "Burgers",
+      "description": "Crispy chicken fillet, fresh lettuce and creamy signature sauce.",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "burger-02",
+      "name": "Double Beef Burger",
+      "category": "Burgers",
+      "description": "Two juicy beef patties with melted cheese and fresh vegetables.",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "pizza-01",
+      "name": "Pepperoni Pizza",
+      "category": "Pizza",
+      "description": "Classic pepperoni with mozzarella and rich tomato sauce.",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "pizza-02",
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "description": "Fresh mozzarella, basil and traditional tomato sauce.",
+      "price": 1000,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "main-01",
+      "name": "Grilled Chicken Steak",
+      "category": "Main Course",
+      "description": "Tender grilled chicken served with seasonal vegetables.",
+      "price": 1450,
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "main-02",
+      "name": "Creamy Alfredo Pasta",
+      "category": "Main Course",
+      "description": "Pasta tossed in a rich and creamy Alfredo sauce.",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "dessert-01",
+      "name": "Chocolate Brownie",
+      "category": "Desserts",
+      "description": "Warm chocolate brownie served with a rich chocolate drizzle.",
+      "price": 400,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "drink-01",
+      "name": "Fresh Lemonade",
+      "category": "Drinks",
+      "description": "Refreshing freshly prepared lemonade.",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=800&q=85",
+      "available": true
+    },
+    {
+      "id": "drink-02",
+      "name": "Cold Coffee",
+      "category": "Drinks",
+      "description": "Chilled coffee blended with milk and a smooth finish.",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=85",
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="Explore The Grand Table's premium food and drinks menu.">
+  <title>Menu | The Grand Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#" class="brand">
+      <span class="brand-mark">GT</span>
+      <span class="brand-name" id="restaurant-name">THE GRAND TABLE</span>
+    </a>
+    <span class="header-label">DIGITAL MENU</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" id="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow" id="restaurant-tagline">A PREMIUM DINING EXPERIENCE</span>
+        <h1 id="hero-title">Good Food.<br><span>Great Moments.</span></h1>
+        <p id="hero-description">Discover our selection of freshly prepared favourites.</p>
+        <a href="#menu" class="hero-button">EXPLORE OUR MENU <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">MADE WITH PASSION</span>
+          <h2>Our <span>Menu</span></h2>
+        </div>
+        <p>Fresh ingredients. Exceptional flavours.</p>
+      </div>
+
+      <div class="menu-toolbar">
+        <div class="category-list" id="category-list">
+          <button class="category-btn active" data-category="all">All Items</button>
+        </div>
+<select id="mobile-category-select" class="mobile-category-select" aria-label="Select menu category">
+          <option value="all">All Items</option>
+        </select>
+
+        <label class="search-box">
+          <span>⌕</span>
+          <input type="search" id="menu-search" placeholder="Search menu..." aria-label="Search menu">
+        </label>
+      </div>
+
+      <div class="menu-status" id="menu-status" aria-live="polite"></div>
+      <div class="menu-grid" id="menu-grid"></div>
+    </section>
+
+    <section class="restaurant-info" id="restaurant-info">
+      <span class="eyebrow">VISIT US</span>
+      <h2>We look forward to <span>serving you.</span></h2>
+      <p id="restaurant-address">Your City, Pakistan</p>
+      <p id="restaurant-hours">Open daily · 12:00 PM – 11:00 PM</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">THE GRAND TABLE</div>
+    <p>Good food brings people together.</p>
+    <span>© <span id="current-year"></span> The Grand Table. All rights reserved.</span>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
